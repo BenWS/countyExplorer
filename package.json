@@ -1,0 +1,18 @@
+{
+  "name": "countyexplorer",
+  "version": "1.0.0",
+  "description": "Submit form to obtain listing of US counties by land area for given state",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Ben Shippey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.5",
+    "number-formatter": "^1.2.0",
+    "pug": "^2.0.3"
+  }
+}

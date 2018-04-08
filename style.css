@@ -1,0 +1,103 @@
+:root {
+  --primary:#226666;
+  --accent:#7A9F35;
+  --accent_bright:#88cb0b;
+  --neutral_light:#dcdcdc;
+  --neutral_dark: #454545;
+  --neutral_gray:#888;
+  --neutral_light_gray:rgba(0,0,0,.1);
+}
+
+.container {
+  font-family: 'Roboto Condensed', sans-serif
+}
+
+#input_form {
+  width:50%;
+  padding: 2%;
+  margin: 5% auto 0 auto;
+  background-color:gray;
+  font-size:20px;
+  border-radius:5px;
+}
+
+#results_table {
+  width:50%;
+  padding: 2%;
+  margin: 5% auto 0 auto
+}
+
+
+#results {
+  width:50%;
+  padding: 2%;
+  margin: 5% auto 0 auto;
+  font-size:20px
+}
+
+label {
+  padding:0 2.5% 0 0
+}
+
+h1 {
+  text-align:center;
+  margin-top:2.5%;
+  margin-bottom: 2.5%
+}
+
+h2 {
+  text-align:center;
+  margin-top:2.5%;
+  margin-bottom: 2.5%
+}
+
+.fa {
+  padding:.3em .2em 0 .2em;
+  font-size:120%
+}
+
+.portBox h1 {
+  margin-top:50%;
+}
+
+.map {
+  margin:20px;
+}
+
+/*COLORS*/
+
+body {
+  background-color:var(--primary);
+}
+
+#input_form {
+  background-color:var(--neutral_gray);
+  color:#fff;
+}
+
+.btn {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color:var(--neutral_light);
+}
+
+.btn:hover {
+  background-color: var(--accent_bright);
+  border-color: var(--accent)
+}
+
+hr {
+  border-color:var(--neutral_light);
+}
+
+.footer, .fa-linkedin, .fa-codepen, .fa-github, .fa-stack-overflow {
+  color:var(--neutral_light);
+}
+
+table {
+  color: var(--neutral_light);
+}
+
+h2 {
+  color:var(--neutral_light);
+}
