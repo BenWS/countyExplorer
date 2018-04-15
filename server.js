@@ -5,7 +5,7 @@ const pug = require('pug');
 const format_number = require('number-formatter');
 
 //Connection URL
-const url = process.env.MONGO_URI;
+const url = process.env.MONGODB_URI;
 const dbName = 'countyrank';
 
 //set views
