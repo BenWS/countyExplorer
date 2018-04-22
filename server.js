@@ -24,6 +24,7 @@ app.get('/results', function(req,res) {
 
   //pass parameters to MongoDB database query
   mongo.connect(process.env.MONGODB_URI, function(err,db) {
+    console.log(db);
     var col = db.collection('rankings');
     if(rankby==='Largest') {
       col.find({"State": state,"_rank_top":{$lte:10}},{_id:0}).sort({"_rank_top":1}).map(function(doc) {return {"rank":doc._rank_top,"rank_overall":doc.rank_overall_top, "CountyName":doc.CountyName,"LandArea":format_number( "#,##0.##",doc.CountyLandAreaMiles)};})
