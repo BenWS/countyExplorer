@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
-    "mongodb": "^3.0.5",
+    "mongodb": "^2.2.26",
     "number-formatter": "^1.2.0",
     "pug": "^2.0.3"
   }
